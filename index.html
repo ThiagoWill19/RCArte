@@ -11,7 +11,7 @@
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">RC Arte</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,7 +38,7 @@
                 <li class="nav-item">
                     <a class="nav-link"  href="#contatos">CONTATOS</a>
                 </li>
-
+            </ul>
           </div>
         </div>
     </nav>
@@ -48,7 +48,36 @@
     <main>
         
         <section class="destaque">
-            <img src="/img/logo.png" alt="RC Arte Um novo conceito - Logo">
+            <div id="carouselDestaqueAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <a href="#contatos">
+                        <img src="img/destaques/TREINAMENTO RC ARTE 2.png" class="d-block d-md-none w-100" alt="TREINAMENTO RC ARTE">
+                        <img src="img/destaques/TREINAMENTO RC ARTE.png" class="d-none d-md-block w-100" alt="TREINAMENTO RC ARTE">
+                    </a>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/destaques/DESENVOLVIMENTO 2.png" class="d-block d-md-none w-100" alt="DESENVOLVIMENTO DE PROJETOS">
+                    <img src="img/destaques/DESENVOLVIMENTO.png" class="d-none d-md-block w-100" alt="DESENVOLVIMENTO DE PROJETOS">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/destaques/ALTA PERFORMANCE 2.png" class="d-block d-md-none w-100" alt="Facas de alta performance">
+                    <img src="img/destaques/ALTA PERFORMANCE.png" class="d-none d-md-block w-100" alt="Facas de alta performance">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/destaques/MEIO AMBIENTE 2.png" class="d-block d-md-none w-100" alt="MEIO AMBIENTE">
+                    <img src="img/destaques/MEIO AMBIENTE.png" class="d-none d-md-block w-100" alt="MEIO AMBIENTE">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselDestaqueAutoplaying" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselDestaqueAutoplaying" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
         </section>
 
             <div class="item-tag">
@@ -72,9 +101,10 @@
             <p class="content-txt-principal"><strong>Conheça nossas principais tecnologias:</strong></p>
             <div class="content-tecnologia">
                 <div class="tecnologia">
-                    <img src="/img/FACA ROTATIVA DE ALTA PERFORMANCE.jpeg" alt="Faca rotativa de alta performance">
+                    <img src="/img/tecnologias/FACA ROTATIVA DE ALTA PERFORMANCE.jpeg" alt="Faca rotativa de alta performance">
                     <h3 class="section-subtitle">FACAS ROTATIVAS DE ALTA PERFORMANCE</h3>
-                    <p class="content-txt">A faca Rotativa de alta performance da RCARTE foi desenvolvida para grandes tiragens de embalagens, garantindo qualidade e limpeza nas caixas de papelão.</p>
+                    <p class="content-txt">A faca Rotativa de alta performance da RCARTE foi desenvolvida para grandes tiragens de embalagens, garantindo qualidade e mais durabilidade.</p>
+                    <p class="content-txt"> • Alta qualidade e durabilidade.</p>
                     <div class="btn-area">
                         <a href="#">Saber mais <span class="material-symbols-outlined">
                             arrow_forward
@@ -82,9 +112,10 @@
                     </div>
                 </div>
                 <div class="tecnologia">
-                    <img src="/img/3 1.png" alt="Clichê digital Full HD" width="320" height="240">
-                    <h3 class="section-subtitle">CLICHÊ DIGITAL - TECNOLOGIA FULL HD</h3>
-                    <p class="content-txt">Contamos com as melhores chapas e tecnologias de gravação do mercado, fazemos um controle constante do processo para assegurar que nossas chapas sigam as especificações de cada fornecedor.</p>
+                    <img src="/img/tecnologias/clichê flexivel.png" alt="Clichê digital Full HD" width="320" height="240">
+                    <h3 class="section-subtitle">CLICHÊ DIGITAL - TECNOLOGIA FULL HD FLEXO</h3>
+                    <p class="content-txt">Nossos clichês digitais são capazes de capturar os mínimos detalhes e produzir impressões com cores vibrantes e linhas nítidas.</p>
+                    <p class="content-txt"> • Qualidade de imagem que se destaca em qualquer material de impressão.</p>
                     <div class="btn-area">
                         <a href="#">Saber mais <span class="material-symbols-outlined">
                             arrow_forward
@@ -92,7 +123,7 @@
                     </div>
                 </div>
                 <div class="tecnologia">
-                    <img src="/img/Sistema próprio RC ARTE.jpg" alt="Sistema exclusivo RC ARTE">
+                    <img src="/img/tecnologias/Sistema próprio RC ARTE.jpg" alt="Sistema exclusivo RC ARTE">
                     <h3 class="section-subtitle">ACESSE NOSSO SISTEMA EXCLUSIVO RC ARTE</h3>
                     <p class="content-txt"> • Solicitação de Layouts e Orçamentos</p>
                     <p class="content-txt"> • Acompanhamento em tempo real</p> 
@@ -166,7 +197,7 @@
                 <div class="servico">
                     <h3 class="section-subtitle">MATRIZES DE CORTE E VINCO</h3>
                     <div class="servico-content">
-                        <img src="/img/FACA ROTATIVA DE ALTA PERFORMANCE.jpeg" alt="">
+                        <img src="/img/servicos/FACA ROTATIVA DE ALTA PERFORMANCE.jpeg" alt="Facas matriz de corte e vinco">
                        <div>
                         <p class="content-txt">Na RC Arte, nossas Matrizes de Corte e Vinco transcendem a mera funcionalidade; são a manifestação concreta da qualidade que permeia cada projeto.</p>
                         <p class="content-txt">Cada faca é uma obra-prima, confeccionada com materiais premium e precisão técnica, refletindo nosso compromisso inabalável com a excelência nos detalhes. Na RC Arte, acreditamos que a qualidade começa no minucioso, e nossas Matrizes de Corte e Vinco são a personificação desse compromisso.</p>
@@ -185,7 +216,8 @@
                     <h3 class="section-subtitle">FACA GRÁFICA</h3>
                     <div class="servico-content">
                         <div>
-                            <p class="content-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur nihil harum doloremque cupiditate quos cum inventore quisquam libero doloribus autem commodi, aliquid dicta? Exercitationem error similique deleniti nihil. Eum, nihil.</p>
+                            <p class="content-txt">Cortes precisos e resultados impecáveis com as nossas facas gráficas. Feitas para os profissionais mais exigentes, nossas facas combinam qualidade superior com desempenho excepcional.</p>
+                            <p class="content-txt">Projetadas para atender às demandas do mundo gráfico, nossas facas são a escolha ideal para cortar com precisão uma ampla variedade de materiais, desde papel e cartão até filmes plásticos e adesivos.</p>
                             <div class="btn-area">
                                 <button>FAZER UM ORÇAMENTO</button>
                                 <a href="#">Saber mais <span class="material-symbols-outlined">
@@ -193,16 +225,17 @@
                                     </span></a>
                             </div>
                         </div> 
-                        <img src="/img/2 1.png" alt="">  
+                        <img src="/img/servicos/FACA ROTATIVA DE ALTA PERFORMANCE.jpeg" alt="Facas gráficas">  
                     </div>
                 </div>
 
                 <div class="servico">
                     <h3 class="section-subtitle">CLICHÊ DIGITAL</h3>
                     <div class="servico-content">
-                        <img src="/img/FLEXÍVEL.jpg" alt="">
+                        <img src="/img/servicos/CLICHÊ ONDULADO.png" alt="clichê digital">
                         <div>
-                            <p class="content-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur nihil harum doloremque cupiditate quos cum inventore quisquam libero doloribus autem commodi, aliquid dicta? Exercitationem error similique deleniti nihil. Eum, nihil.</p>
+                            <p class="content-txt"> Projetados para oferecer qualidade incomparável e detalhes precisos, nossos clichês digitais são a escolha definitiva para suas necessidades de impressão.</p>
+                            <p class="content-txt">Graças à tecnologia de topo plano, nossos clichês digitais garantem uma superfície lisa e uniforme, permitindo reproduções perfeitas de seus designs mais intrincados. Combinado com a precisão do microsel, cada detalhe é capturado com nitidez e clareza, resultando em impressões de alta definição que impressionam em todos os aspectos.</p>
                             <div class="btn-area">
                                 <button>FAZER UM ORÇAMENTO</button>
                                 <a href="#">Saber mais <span class="material-symbols-outlined">
@@ -217,7 +250,7 @@
                     <h3 class="section-subtitle">CLICHÊ ONDULADO</h3>
                     <div class="servico-content">
                         <div>
-                            <p class="content-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur nihil harum doloremque cupiditate quos cum inventore quisquam libero doloribus autem commodi, aliquid dicta? Exercitationem error similique deleniti nihil. Eum, nihil.</p>
+                            <p class="content-txt">Deixe suas embalagens onduladas ainda mais marcantes com nossos clichês especializados. Projetados para oferecer precisão e qualidade excepcionais, nossos clichês para ondulado garantem resultados impressionantes em cada impressão.</p>
                             <div class="btn-area">
                                 <button>FAZER UM ORÇAMENTO</button>
                                 <a href="#">Saber mais <span class="material-symbols-outlined">
@@ -225,21 +258,18 @@
                                     </span></a>
                             </div>
                         </div> 
-                        <img src="/img/2 1.png" alt="">  
+                        <img src="/img/servicos/CLICHÊ ONDULADO.png" alt="">  
                     </div>
                 </div>
 
                 <div class="servico">
                     <h3 class="section-subtitle">TREINAMENTO</h3>
                     <div class="servico-content">
-                        <img src="/img/TREINAMENTO RC ARTE.jpg" alt="">
+                        <img src="/img/servicos/TREINAMENTO.jpg" alt="">
                         <div>
-                            <p class="content-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur nihil harum doloremque cupiditate quos cum inventore quisquam libero doloribus autem commodi, aliquid dicta? Exercitationem error similique deleniti nihil. Eum, nihil.</p>
+                            <p class="content-txt">Uma ferramenta indispensável para impulsionar o desempenho e o sucesso de sua equipe. Com nosso treinamento, seus colaboradores serão equipados com as habilidades, conhecimentos e competências necessárias para desempenhar suas funções de forma eficaz.</p>
                             <div class="btn-area">
                                 <button>ENTRAR EM CONTATO</button>
-                                <a href="#">Saber mais <span class="material-symbols-outlined">
-                                    arrow_forward
-                                    </span></a>
                             </div>
                         </div> 
                     </div>
@@ -256,13 +286,13 @@
             <p class="content-txt"> Valorizamos profundamente os relacionamentos que construímos com nossos clientes, e estamos orgulhosos de contar com a confiança de algumas das principais marcas do mercado. Agradecemos a cada um dos nossos clientes por sua parceria contínua e pela oportunidade de colaborar em projetos inspiradores. Confira abaixo alguns dos nossos clientes principais que escolheram a RC Arte para suas necessidades gráficas. Estamos comprometidos em continuar oferecendo soluções de alta qualidade e serviço excepcional a todos os nossos clientes.</p>
             <div class="content-clientes">
                 <img src="/img/Klabin logo.png" alt="">
-                <img src="/img/Itapevi Logo.png" alt="">
-                <img src="/img/Embanor logo.png" alt="">
+                <img src="/img/Klabin logo.png" alt="">
+                <img src="/img/Klabin logo.png" alt="">
             </div>
             <div class="content-clientes">
-                <img src="/img/Embanor logo.png" alt="">
                 <img src="/img/Klabin logo.png" alt="">
-                <img src="/img/Itapevi Logo.png" alt="">
+                <img src="/img/Klabin logo.png" alt="">
+                <img src="/img/Klabin logo.png" alt="">
                 
             </div>
         </section>
@@ -307,7 +337,8 @@
         <p>&copy; Copyright 2024 | <strong>RC Arte</strong> Todos os  direitos reservados.</p>
         <p>Desenvolvido por <a href="#">Thiago Pompeu</a></p> 
     </footer>
+    
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
 </body>
 </html>
