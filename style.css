@@ -324,7 +324,7 @@ iframe {
 }
 
 /* --- CLIENTES --- */
-.clientes{
+.sistema{
     background-color: #C7C7C7;
     display: flex;
     flex-direction: column;
@@ -335,19 +335,20 @@ iframe {
     text-align: center;
 }
 
-.content-clientes{
+.content-sistema{
     margin-top: 40px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     gap: 40px;
     width: 80%;
 }
 
-.clientes img{
-    width: 180px;
-    height:90px;
+.sistema img{
+    height: 225px;
+    width: 326px;
+    border-radius: 10px;
 }
 
 
@@ -503,7 +504,7 @@ footer a {
         flex-direction: column;
     }
 
-    .content-clientes{
+    .content-sistema{
         flex-direction: column;
     }
 
