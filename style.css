@@ -240,7 +240,7 @@
 }
 
 
-.servico-content button {
+.servico-content .bt {
     border: solid 2px;
     border-color: #008536;
     padding: 7px;
@@ -449,6 +449,15 @@ footer a {
     .content-txt {
         font-size: 18px;
         width: 90%;
+    }
+
+    .navbar-collapse {
+        margin-top: 12px;
+        padding: 10px;
+        background-color: #222222a4;
+        backdrop-filter: blur(2px);
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
     }
 
     .tag1 {
