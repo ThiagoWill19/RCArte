@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+.cta {
+    margin-top: 40px;
+    text-decoration: none;
+    align-self: center;
+    background-color: #d66102;
+    padding: 7px;
+    color: #fff ;
+    font-weight: bolder;
+    border-radius: 7px;
+    box-shadow: 3px 3px 5px 3px #2222224d;
+    transition: .5s;
+}
+
+.cta:hover{
+    transform: scale(1.1);
+    box-shadow: 10px 10px 10px 3px #2222224d;
+}
+
+.main-title {
+    margin-top: 100px;
+    font-size: 50px;
+    font-family: 'Teko', sans-serif;
+}
+
+.strong-main {
+    font-size: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Teko', sans-serif;
+    color: #fff;
+    background-color: #008536;
+    border-radius: 7px;
+    letter-spacing: 3px;
+}
+
+.destaque-content {
+    padding: 10px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.txt-area {
+    display: flex;
+    flex-direction: column;
+}
+
+.destaque-content img {
+
+    width: 320px;
+    height: 240px;
+    border-radius: 10px;
+}
+
+.sub-title{
+    color: #7a7a7a;
+    border-left: 5px solid #008536;
+    padding-left: 7px;
+    margin-top: 150px;
+    font-size: 40px;
+    font-family: 'Teko', sans-serif;
+}
+
+.grupo-beneficios {
+    margin-top: 40px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.beneficios-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: .5S;
+}
+
+.beneficios-item:hover {
+    transform: scale(1.1);
+    
+}
+
+
+
+.item-title {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.item-txt {
+    text-align: center;
+    font-size: 18px;
+    width: 80%;
+}
+
+
+.grupo-produtos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.produto {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    gap: 40px;
+}
+
+.produto-title {
+    margin-top: 20px;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.produto-txt {
+    margin-top: 20px;
+}
+
+.texto-destacado {
+    font-size: 20px;
+    background-color: #008535;
+    padding: 3px;
+    border-radius: 7px;
+    color: #fff;
+
+}
+
+.trecho {
+    margin-top: 20px;
+    font-size: 14px;
+    font-style: italic;
+    background-color: #7a7a7a70;
+    padding: 7px;
+    border-radius: 7px;
+}
+
+.produto img {
+    width: 400px;
+    height: 520px;
+    border-radius: 10px;
+    align-self: center;
+}
+
+.argumentos {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    padding: 10px;
+}
+
+.argumento-txt-principal {
+    border-left: 3px solid #008535;
+    padding-left: 3px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.argumento-txt {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: bold;
+}
+
+.circ {
+    margin-right: 15px;
+    padding: 3px;
+    border-radius: 50%;
+    background-color: #008536;
+    color: #fff;
+}
+
+@media only screen and (max-width: 1100px) {
+
+    section{
+        width: 90%;
+    }
+
+    .destaque-content {
+        flex-direction: column;
+    }
+
+    .destaque-content img {
+        width: 100%;
+        height: auto;
+    }
+
+    .main-title {
+        font-size: 30px;
+    }
+
+    .strong-main{
+        font-size: 30px;
+    }
+
+
+    .grupo-beneficios {
+        flex-direction: column;
+    }
+
+    .produto {
+        flex-direction: column;
+    }
+
+    .produto-title {
+        font-size: 20px;
+    }
+
+    .produto img {
+        width: 100%;
+        height: auto;
+        
+    }
+}
