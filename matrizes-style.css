@@ -40,10 +40,20 @@ section {
     box-shadow: 10px 10px 10px 3px #2222224d;
 }
 
+.nav {
+    padding: 10px;
+}
+
+.nav img {
+    width: 50px;
+    height:  auto;
+}
+
 .main-title {
     margin-top: 100px;
     font-size: 50px;
     font-family: 'Teko', sans-serif;
+    letter-spacing: 2px;
 }
 
 .strong-main {
@@ -138,7 +148,7 @@ section {
 .produto {
     display: flex;
     flex-direction: row;
-    margin-top: 40px;
+    margin-top: 80px;
     gap: 40px;
 }
 
