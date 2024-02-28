@@ -50,7 +50,7 @@ section {
 }
 
 .main-title {
-    margin-top: 100px;
+    margin-top: 40px;
     font-size: 50px;
     font-family: 'Teko', sans-serif;
     letter-spacing: 2px;
@@ -180,6 +180,12 @@ section {
     border-radius: 7px;
 }
 
+.strong-trecho {
+    font-size: 12px;
+    padding: 7px;
+    border-radius: 7px;
+}
+
 .produto img {
     width: 400px;
     height: 520px;
@@ -216,6 +222,49 @@ section {
     background-color: #008536;
     color: #fff;
 }
+
+.video {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+iframe {
+    margin-top: 90px;
+    border-radius: 10px;
+    width: 80%;
+    height: 600px;
+}
+
+.area-arte {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+footer {
+    width: 100%;
+    margin-top: 60px;
+    background-color: #262626;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 5px;
+    gap: 10px;
+    font-size: 18px;
+}
+
+footer a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
 
 @media only screen and (max-width: 1100px) {
 
@@ -258,4 +307,26 @@ section {
         height: auto;
         
     }
+
+    iframe {
+        width: 100%;
+        height: 300px;
+        margin: 20px;
+    }
+
+    footer {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    footer p {
+        font-size: 14px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .area-arte {
+        padding: 0;
+    }
+  
 }
