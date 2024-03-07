@@ -406,6 +406,14 @@ iframe {
 }
 
 
+.area-arte {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
 
 /* ----   FOOTER   ------*/
 footer {
@@ -523,6 +531,10 @@ footer a {
 
     .content-sistema{
         flex-direction: column;
+    }
+
+    .area-arte {
+        padding: 0;
     }
 
     footer {
